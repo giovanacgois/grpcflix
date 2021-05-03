@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package common;
+option java_multiple_files = true;
+option java_package = "com.giovanacgois.grpcflix.common";
+
+enum Genre {
+  DRAMA = 0;
+  ACTION = 1;
+  CRIME = 2;
+  WESTERN = 3;
+}
